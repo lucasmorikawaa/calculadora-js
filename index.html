@@ -17,7 +17,13 @@
             <input id="num1" type="number">
             <input id="num2" type="number">
 
-            <button onclick="calc()">Somar</button>
+            <div class="calc-buttons">
+                <button id="soma" onclick="calc('soma')">+</button>
+                <button id="subtracao" onclick="calc('subtracao')">-</button>
+                <button id="multiplicacao" onclick="calc('multiplicacao')">*</button>
+                <button id="divisao" onclick="calc('divisao')">/</button>
+            </div>
+            
             <input id="output" type="text" readonly>
         </div>
     </div>

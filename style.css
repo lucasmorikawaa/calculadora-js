@@ -19,6 +19,7 @@ button:hover{
 
 input{
     height: 22px;
+    width: 280px;
     padding: 8px;
     font-size: 1.2rem;
     margin: 15px 70px;
