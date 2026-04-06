@@ -12,6 +12,11 @@ button{
     cursor: pointer;
 }
 
+object{
+    width: 50px;
+    height: 50px;
+}
+
 button:hover{
     background-color: #0069d9;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
@@ -24,6 +29,7 @@ input{
     font-size: 1.2rem;
     margin: 15px 70px;
     border-radius: 5px;
+    text-align: right;
 }
 
 input[type=number]:focus{
@@ -38,10 +44,10 @@ input[type=text]{
 
 .container {
   background-color: #d3d3d3;
-  width: 600px;
+  width: 900px;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  justify-content: center;
   margin: auto;
   border-radius: 5px;
   padding: 40px;
@@ -57,4 +63,34 @@ input[type=text]{
     row-gap: 20px;
     border-radius: 10px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.calc-title{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.history{
+    background-color: #000;
+    color: white;
+    width: 400px;
+    border-radius: 5px;
+}
+
+.history-title{
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 24px;
+}
+
+.history-subtitle{
+    text-align: right;
+    margin: 16px;
+}
+
+.history-panel{
+    text-align: right;
+    margin: 16px;
 }

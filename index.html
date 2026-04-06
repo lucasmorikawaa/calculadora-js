@@ -11,26 +11,35 @@
 <body>
     <div class="container">
         <div class="calc">
+            <object data="calculate_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" type="image/svg+xml"></object>
             <div class="calc-title">
-                <h1>Calculadora</h1>
+                Calculadora
             </div>
             <input id="num1" type="number">
             <input id="num2" type="number">
 
             <div class="calc-buttons">
-                <button id="soma" onclick="calc('soma')">+</button>
-                <button id="subtracao" onclick="calc('subtracao')">-</button>
-                <button id="multiplicacao" onclick="calc('multiplicacao')">*</button>
-                <button id="divisao" onclick="calc('divisao')">/</button>
+                <button id="soma" onclick="calc('+')">+</button>
+                <button id="subtracao" onclick="calc('-')">-</button>
+                <button id="multiplicacao" onclick="calc('*')">*</button>
+                <button id="divisao" onclick="calc('/')">/</button>
             </div>
             
             <input id="output" type="text" readonly>
         </div>
+        <div class="history">
+            <div class="history-title">
+                Histórico:
+            </div>
+            <div class="history-subtitle">
+                10 últimas operações:
+            </div>
+            <div id="history" class="history-panel">
+                
+            </div>
+        </div>    
     </div>
-    <div class="history">
-
-    </div>    
-
+    
     <script src="javascript.js"></script>
 </body>
 </html>
